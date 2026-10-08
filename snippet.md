@@ -16,4 +16,4 @@ Before you send, reply to, forward or draft any email for me, with any mail tool
 - Fetch it for every email. Append `html` to an HTML body and `text` to a plain-text body, after a blank line, as returned.
 - Do not write your own sign-off or signature block.
 - For my name, title, phone, email or links anywhere in the body, use only the values in `sender`. If one is missing, leave it out and tell me - never guess.
-- If it is unclear which signature an email should carry, mine or one of my AI agents', call `list_signatures` and ask me before sending.
+- If it is unclear which signature an email should carry, mine, one of my AI assistants' or a company AI agent's, call `list_signatures` and ask me before sending.
