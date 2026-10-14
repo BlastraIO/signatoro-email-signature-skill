@@ -1,6 +1,8 @@
 ---
 name: email-signature
 description: Before sending, replying to, forwarding or drafting any email for the user, with any mail tool (Gmail, Outlook, SMTP or a mail API), fetch their saved email signature from Signatoro and append it after the body. Use it every time you are about to send or draft an email, even when the user does not mention a signature. Works with the Signatoro MCP server (get_signature, list_signatures) or the REST API (GET https://signatoro.com/api/v1/signature with SIGNATORO_API_KEY).
+license: MIT
+metadata: {"openclaw": {"primaryEnv": "SIGNATORO_API_KEY", "requires": {"env": ["SIGNATORO_API_KEY"]}, "homepage": "https://signatoro.com/docs/install-signature/agent"}}
 ---
 
 # Email signature

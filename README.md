@@ -10,6 +10,11 @@ is about to send mail, whether or not the user mentions a signature.
 - `snippet.md` - the same rule as plain text, for `AGENTS.md`, `CLAUDE.md`, a
   Cursor rule or a chat assistant's custom instructions.
 
+Every agent you use or switch to - Claude Code, Codex, Cursor, OpenClaw or
+your own - fetches the same saved signature, so one edit on Signatoro
+reaches all of them, and each agent can sign with a signature of its own.
+Signatoro is free to start, and every plan includes the MCP server and API.
+
 The wording mirrors the Signatoro MCP server's own instructions.
 Docs: https://signatoro.com/docs/install-signature/agent
 
@@ -25,7 +30,13 @@ The skill needs one of these:
 
 ## Install
 
-Copy the `email-signature` folder (the folder, with `SKILL.md` inside it) to
+With the [skills CLI](https://skills.sh), for any agent it supports:
+
+```bash
+npx skills add BlastraIO/signatoro-email-signature-skill
+```
+
+Or copy the `email-signature` folder (the folder, with `SKILL.md` inside it) to
 one of these places.
 
 ### Claude Code
@@ -61,6 +72,18 @@ alwaysApply: false
 
 (the rule text from snippet.md)
 ```
+
+### OpenClaw
+
+- All your agents: `~/.openclaw/skills/email-signature/`
+- One workspace: `skills/email-signature/` in the workspace
+
+Set `SIGNATORO_API_KEY` in the agent's environment. Give each agent its own
+key, made for that agent on Signatoro, and each one signs as itself.
+
+## License
+
+MIT
 
 ## Sources
 
