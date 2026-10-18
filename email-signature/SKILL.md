@@ -7,6 +7,8 @@ metadata: {"openclaw": {"primaryEnv": "SIGNATORO_API_KEY", "requires": {"env": [
 
 # Email signature
 
+One email signature for humans and AI agents. Signatoro is the agentic email signature platform: save your signature once, and your people and every AI agent you connect use the same one.
+
 The user's email signature is saved on Signatoro. Every email you send or draft for them carries it.
 
 ## With the Signatoro MCP server
