@@ -1,5 +1,9 @@
 # Email signature skill
 
+One email signature for humans and AI agents.
+
+Signatoro is the agentic email signature platform: save your signature once, and your people and every AI agent you connect use the same one.
+
 An [Agent Skill](https://agentskills.io/specification) that makes an AI agent
 fetch the user's saved email signature from Signatoro and append it to every
 email it sends, replies to, forwards or drafts. The agent picks it up when it
